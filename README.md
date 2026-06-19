@@ -14,6 +14,28 @@ The goal is to understand where users drop off, which traffic sources perform be
 - SQL
 - GitHub
 
+## Repository Structure
+
+## Repository Structure
+
+```text
+sales-funnel-analysis/
+├── README.md
+├── queries/
+│   ├── 01_funnel_conversion_analysis.sql
+│   ├── 02_event_volume_and_distribution.sql
+│   ├── 03_funnel_by_traffic_source.sql
+│   ├── 04_time_to_conversion_analysis.sql
+│   └── 05_revenue_funnel_analysis.sql
+└── images/
+    ├── funnel_conversion_results.png
+    ├── total_event_count.png
+    ├── event_type_distribution.png
+    ├── funnel_by_traffic_source_results.png
+    ├── time_to_conversion_results.png
+    └── revenue_funnel_results.png
+```
+
 ## Dataset
 
 The dataset contains user event records from a sales funnel. Each row represents a user activity such as page view, add to cart, checkout start, payment information, or purchase.
@@ -43,6 +65,7 @@ Measure the number of unique users at each funnel stage and calculate the conver
 ### Result
 
 ![Funnel conversion results](images/funnel_conversion_results.png)
+
 
 ### Key Insight
 
@@ -131,6 +154,10 @@ Analyse revenue performance by calculating total visitors, buyers, orders, reven
 The funnel generated **76,037.93** in total revenue from **708 orders**. The average order value was **107.40**, while revenue per visitor was **17.82**.
 
 ---
+
+## Project Limitations
+
+This project uses practice data for learning purposes. The recommendations are based on the available event-level dataset and should be treated as sample business analysis rather than conclusions from a real company.
 
 ## Final Recommendations
 
