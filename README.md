@@ -64,6 +64,13 @@ Measure the number of unique users at each funnel stage and calculate the conver
 
 ![Funnel conversion results](images/funnel_conversion_results.png)
 
+| Funnel stage | Users | Conversion rate |
+|---|---:|---:|
+| Page view | 4,268 | - |
+| Add to cart | 1,332 | 31.21% |
+| Checkout start | 951 | 71.40% |
+| Payment info | 768 | 80.76% |
+| Purchase | 708 | 92.19% |
 
 ### Key Insight
 
@@ -87,6 +94,15 @@ Measure the total number of event records and examine how those records are dist
 
 ![Event type distribution](images/event_type_distribution.png)
 
+| Event type | Total events |
+|---|---:|
+| Page view | 5,000 |
+| Add to cart | 1,553 |
+| Checkout start | 1,103 |
+| Payment info | 899 |
+| Purchase | 826 |
+| **Total** | **9,381** |
+
 ### Key Insight
 
 The dataset contains **9,381 event records**. Page views account for the largest share of activity, while event volume decreases at each later funnel stage.
@@ -106,6 +122,13 @@ Compare funnel performance across different traffic sources by measuring views, 
 ### Result
 
 ![Funnel by traffic source results](images/funnel_by_traffic_source_results.png)
+
+| Traffic source | Views | Carts | Purchases | Cart conversion rate | Purchase conversion rate | Cart-to-purchase conversion rate |
+|---|---:|---:|---:|---:|---:|---:|
+| Email | 445 | 280 | 151 | 62% | 33% | 53% |
+| Organic | 1,750 | 576 | 300 | 32% | 17% | 52% |
+| Paid ads | 820 | 305 | 173 | 37% | 21% | 56% |
+| Social | 1,253 | 171 | 84 | 13% | 6% | 49% |
 
 ### Key Insight
 
@@ -127,6 +150,13 @@ Measure how long converted users take to move from page view to add to cart and 
 
 ![Time to conversion results](images/time_to_conversion_results.png)
 
+| Metric | Result |
+|---|---:|
+| Converted users | 707 |
+| Average view-to-cart time | 11.19 minutes |
+| Average cart-to-purchase time | 13.35 minutes |
+| Average total journey time | 24.55 minutes |
+
 ### Key Insight
 
 Converted users completed the full journey from page view to purchase in an average of **24.55 minutes**.
@@ -146,6 +176,16 @@ Analyse revenue performance by calculating total visitors, buyers, orders, reven
 ### Result
 
 ![Revenue funnel results](images/revenue_funnel_results.png)
+
+| Metric | Result |
+|---|---:|
+| Total visitors | 4,268 |
+| Total buyers | 708 |
+| Total orders | 708 |
+| Total revenue | 76,037.93 |
+| Average order value | 107.40 |
+| Revenue per buyer | 107.40 |
+| Revenue per visitor | 17.82 |
 
 ### Key Insight
 
