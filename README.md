@@ -16,8 +16,6 @@ The goal is to understand where users drop off, which traffic sources perform be
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 sales-funnel-analysis/
 ├── README.md
