@@ -6,14 +6,6 @@ This project analyses user behaviour across a sales funnel using SQL. The analys
 
 The goal is to understand where users drop off, which traffic sources perform best, how quickly users convert, and how funnel activity connects to revenue.
 
-## Tools Used
-
-- SQLite
-- DBeaver
-- DB Browser for SQLite
-- SQL
-- GitHub
-
 ## Repository Structure
 
 ```text
@@ -33,6 +25,14 @@ sales-funnel-analysis/
     ├── time_to_conversion_results.png
     └── revenue_funnel_results.png
 ```
+
+## Tools Used
+
+- SQLite
+- DBeaver
+- DB Browser for SQLite
+- SQL
+- GitHub
 
 ## Dataset
 
